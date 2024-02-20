@@ -1,3 +1,9 @@
-const baseURL = 'https://rickandmortyapi.com/api/episode';
+const baseURL = 'https://rickandmortyapi.com/api/episode/';
 
-export {baseURL}
+const urls = {
+    baseURL,
+    episodeDetail:{
+        episodeId:(id)=>`${id}`
+    }
+}
+export {baseURL, urls}
